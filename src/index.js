@@ -4,6 +4,6 @@ var isNumber = require("is_number");
 module.exports = isInteger;
 
 
-function isInteger(obj) {
-    return isNumber(obj) && obj % 1 === 0;
+function isInteger(value) {
+    return isNumber(value) && value % 1 === 0;
 }
